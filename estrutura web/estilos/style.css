@@ -1,0 +1,155 @@
+@import url("https://fonts.googleapis.com/css2?family=Monoton&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+}
+/*para centrar los textos de h1*/
+h1 {
+  /* font-family: "Monoton", cursive; */
+  text-align: center;
+  padding: 50px;
+  color: rgb(84, 151, 218);
+  font-size: 35px;
+}
+
+/* * header {
+  position: sticky;
+  top: 0;
+   font-family: "Monoton", cursive; 
+   display: flex;
+  justify-content: space-between;
+  align-items: center; 
+}
+
+body {
+  background-color: rgb(0, 0, 0);
+  color: rgba(99, 99, 99, 0.932);
+}
+
+
+ul {
+  margin: 1%;
+  font-family: "Monoton", cursive;
+  display: flex;
+}
+ul li {
+  list-style: none;
+  margin: 0px 30px;
+}
+
+ul li a {
+  color: rgb(84, 151, 218);
+  font-size: 1.5rem;
+  text-decoration: none;  */
+
+/*---------inicio-------------*/
+.nav-link {
+  color: rgb(255, 255, 255);
+  font-size: 2.2rem;
+}
+.navbar {
+  background-color: black;
+  font-family: "Monoton", cursive;
+  padding-left: 10px;
+}
+.navbar-expand-lg .navbar-collapse {
+  display: flex;
+  flex-basis: auto;
+  justify-content: flex-end;
+}
+.container-fluid img {
+  width: 400px;
+  height: 200px;
+}
+/*--------fin pagina inicio---------/*
+
+/*-----------galeria--------------*/
+.main-galeria {
+  margin-left: 3%;
+  margin-right: 3%;
+}
+.imagen-galeria {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  justify-items: center;
+  margin-top: 20px;
+}
+.imagen-galeria img {
+  width: 270px;
+  height: 270px;
+  padding: 10px;
+}
+
+/*-------fin pag galeria------*/
+
+/*biografia*/
+.biografia {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  padding: 30px;
+}
+
+.texto-biografia {
+  margin-right: 40px;
+  margin-left: 40px;
+  width: 70%;
+  background-color: rgb(0, 0, 0);
+  font-size: 24px;
+}
+.biografia img {
+  width: 400px;
+  margin: auto;
+  padding: 1px;
+}
+
+/* fin de biografia*/
+
+/*eventos*/
+.main-eventos {
+  background-color: rgb(0, 0, 0);
+}
+.container-evento {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  grid-row-gap: 10px;
+  justify-items: center;
+}
+
+.container-evento img {
+  width: 270px;
+  height: 270px;
+  padding: 10px 5px;
+}
+/*---fin eventos---*/
+
+/*contacto*/
+form {
+  width: 98%;
+  margin: 1%;
+  font-size: 1.5rem;
+}
+
+/* fin eventos*/
+
+/* footer*/
+footer {
+  padding: 10px;
+  border-top: 1px solid rgb(84, 151, 218);
+}
+
+footer ul {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+/*MEDIA QUERIES*/
+/*tablet*/
+@media only screen and (max-width: 768px) {
+}
+
+/*mobile*/
+@media only screen and (max-width: 576px) {
+}

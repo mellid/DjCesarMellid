@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="../img/Logo.ico" />
+    <link rel="stylesheet" href="../estilos/style.css" />
+    <title>Contacto</title>
+  </head>
+  <body>
+    <header>
+      <div class="logo-inicio">
+        <img src="../img/logo-negro.png" />
+      </div>
+      <nav>
+        <ul>
+          <li><a href="../index.html">inicio</a></li>
+          <li><a href="./galeria.html">galeria</a></li>
+          <li><a href="./biografia.html">biografia</a></li>
+          <li><a href="./eventos.html">eventos</a></li>
+          <li><a href="./contacto.html">contacto</a></li>
+        </ul>
+      </nav>
+    </header>
+    <h1>Contacto</h1>
+    <main>
+      <form>
+        <fieldset>
+          <nav class="datos-1">
+            <label for="nombre">Nombre y Apellido</label>
+            <input type="text" name="nombre" />
+            <div>
+              <label for="mail">Correo Electronico</label>
+              <input type="text" name="mail" />
+            </div>
+            <label for="numer de telefono">numero de telefono</label>
+            <input type="text" name="numero de telefono" />
+          </nav>
+          <nav class="datos-2">
+            <div>
+              <legend>indique localidad de su evento</legend>
+              <label for="localidad"></label>
+              <input type="text" name="localidad" />
+            </div>
+          </nav>
+          <div class="datos-3">
+            <legend>inique su tipo evento</legend>
+            <select name="eventos">
+              <option value="fiesta"></option>
+              <option value="fiesta">fiesta privada</option>
+              <option value="evento">Evento Empresarial</option>
+              <option value="festival">festival</option>
+              <option value="fiesta de 15">fiesta de 15</option>
+              <option value="casamiento">casamiento</option>
+            </select>
+          </div>
+          <div class="datos-4">
+            <legend>indique duracion de la sesion de trabajo</legend>
+            <input type="checkbox" name="3hs" /> 3hs
+            <input type="checkbox" name="5hs" /> 5hs
+            <input type="checkbox" name="8hs" /> 8hs
+            <input type="checkbox" name="12hs" /> 12hs
+            <div class="datos-5">
+              <input type="submit" value="enviar" />
+            </div>
+          </div>
+        </fieldset>
+      </form>
+    </main>
+    <footer class="pie-pagina">
+      <ul>
+        <li><a>facebook</a></li>
+
+        <li><a>instagram</a></li>
+
+        <li><a>twitter</a></li>
+      </ul>
+    </footer>
+  </body>
+</html>
