@@ -5,31 +5,43 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="icon" href="../img/Logo.ico" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
     <link rel="stylesheet" href="../estilos/style.css" />
     <title>Contacto</title>
   </head>
   <body>
     <header>
-      <nav class="navbar navbar-expand-lg" data-bs-theme="dark">
+      <nav
+        class="navbar navbar-expand-lg bg-body-tertiary"
+        data-bs-theme="dark"
+      >
         <div class="container-fluid">
           <a class="navbar-brand" href="../index.html"
-            ><img src="../img/logo-negro.png"
+            ><img src="../img/Logo.png"
           /></a>
           <button
-            class="navbar-toggler active"
+            class="navbar-toggler"
             type="button"
             data-bs-toggle="collapse"
-            data-bs-target="#navbarNav"
-            aria-controls="navbarNav"
+            data-bs-target="#navContacto"
+            aria-controls="navContacto"
             aria-expanded="false"
             aria-label="Toggle navigation"
           >
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
+          <div class="collapse navbar-collapse" id="navContacto">
             <ul class="navbar-nav">
               <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="../index.html"
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="../index.html"
                   >INICIO</a
                 >
               </li>
@@ -53,49 +65,40 @@
       </nav>
     </header>
     <h1>Contacto</h1>
+    <h2>para contacto rellene el formulario</h2>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, quas
+      est. Unde natus perspiciatis, beatae a recusandae deleniti qui, eum
+      pariatur quod inventore sed! Reprehenderit iusto odio doloremque at
+      consequuntur?
+    </p>
+
     <main>
-      <form>
-        <fieldset>
-          <nav class="datos-1">
-            <label for="nombre">Nombre y Apellido</label>
-            <input type="text" name="nombre" />
-            <div>
-              <label for="mail">Correo Electronico</label>
-              <input type="text" name="mail" />
-            </div>
-            <label for="numer de telefono">numero de telefono</label>
-            <input type="text" name="numero de telefono" />
-          </nav>
-          <nav class="datos-2">
-            <div>
-              <legend>indique localidad de su evento</legend>
-              <label for="localidad"></label>
-              <input type="text" name="localidad" />
-            </div>
-          </nav>
-          <div class="datos-3">
-            <legend>inique su tipo evento</legend>
-            <select name="eventos">
-              <option value="fiesta"></option>
-              <option value="fiesta">fiesta privada</option>
-              <option value="evento">Evento Empresarial</option>
-              <option value="festival">festival</option>
-              <option value="fiesta de 15">fiesta de 15</option>
-              <option value="casamiento">casamiento</option>
+      <div class="row g-2">
+        <div class="col-md">
+          <div class="form-floating">
+            <input
+              type="email"
+              class="form-control"
+              id="floatingInputGrid"
+              placeholder="name@example.com"
+              value="mdo@example.com"
+            />
+            <label for="floatingInputGrid">Email address</label>
+          </div>
+        </div>
+        <div class="col-md">
+          <div class="form-floating">
+            <select class="form-select" id="floatingSelectGrid">
+              <option selected>Open this select menu</option>
+              <option value="1">One</option>
+              <option value="2">Two</option>
+              <option value="3">Three</option>
             </select>
+            <label for="floatingSelectGrid">Works with selects</label>
           </div>
-          <div class="datos-4">
-            <legend>indique duracion de la sesion de trabajo</legend>
-            <input type="checkbox" name="3hs" /> 3hs
-            <input type="checkbox" name="5hs" /> 5hs
-            <input type="checkbox" name="8hs" /> 8hs
-            <input type="checkbox" name="12hs" /> 12hs
-            <div class="datos-5">
-              <input type="submit" value="enviar" />
-            </div>
-          </div>
-        </fieldset>
-      </form>
+        </div>
+      </div>
     </main>
     <footer class="pie-pagina">
       <ul>
@@ -106,5 +109,15 @@
         <li><a>twitter</a></li>
       </ul>
     </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+      integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"
+      integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
