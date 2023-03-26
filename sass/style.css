@@ -3,9 +3,11 @@
   padding: 0;
   margin: 0;
 }
+
 body {
   background-color: #000000;
 }
+
 /*para centrar los textos de h1*/
 h1 {
   font-family: "Monoton", cursive;
@@ -23,17 +25,19 @@ h1 {
 .container-fluid img {
   width: 100px;
 }
+
 .nav-link {
   color: rgb(255, 255, 255);
   font-size: 150%;
   font-family: "Monoton", cursive;
 }
+
 .navbar-expand-lg .navbar-collapse {
   justify-content: flex-end;
 }
+
 /*--------fin header-navegar---------/*
 /*-----------galeria--------------*/
-
 /* .main-galeria {
 } */
 .imagen-galeria {
@@ -43,6 +47,7 @@ h1 {
   grid-row-gap: 10px;
   justify-items: center;
 }
+
 .imagen-galeria img {
   width: 400px;
   height: 400px;
@@ -50,7 +55,6 @@ h1 {
 }
 
 /*-------fin pag galeria------*/
-
 /*biografia*/
 .clearfix {
   color: #ccc;
@@ -64,11 +68,11 @@ h1 {
 }
 
 /* fin de biografia*/
-
 /*eventos*/
 .main-eventos {
   background-color: rgb(0, 0, 0);
 }
+
 .container-evento {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -108,9 +112,9 @@ label {
   color: #666;
 }
 
-input[type="text"],
-input[type="email"],
-input[type="tel"],
+input[type=text],
+input[type=email],
+input[type=tel],
 select,
 textarea {
   width: 100%;
@@ -123,7 +127,7 @@ textarea {
   font-family: Arial, sans-serif;
 }
 
-input[type="submit"] {
+input[type=submit] {
   background-color: #4caf50;
   color: white;
   padding: 12px 20px;
@@ -134,11 +138,11 @@ input[type="submit"] {
   font-family: Arial, sans-serif;
 }
 
-input[type="submit"]:hover {
+input[type=submit]:hover {
   background-color: #45a049;
 }
-/*---fin contacto-style ---*/
 
+/*---fin contacto-style ---*/
 /* footer*/
 footer {
   font-family: "Monoton", cursive;
@@ -190,7 +194,6 @@ footer ul {
     padding: 10px;
   }
 }
-
 /*mobile*/
 @media only screen and (max-width: 576px) {
   .container-fluid {
@@ -198,7 +201,6 @@ footer ul {
     align-items: center;
     flex-direction: column;
   }
-
   /* galeria */
   .imagen-galeria {
     grid-template-columns: repeat(1, 1fr);
@@ -231,4 +233,4 @@ footer ul {
     font-size: 10px;
     padding: 10px;
   }
-}
+}/*# sourceMappingURL=style.css.map */
