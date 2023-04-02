@@ -15,11 +15,10 @@ h1 {
   padding: 10px;
 }
 
+/*---------header-navegador-------------*/
 #navbarNav li {
   padding: 0 15px;
 }
-
-/*---------header-navegador-------------*/
 .container-fluid img {
   width: 100px;
 }
@@ -48,6 +47,12 @@ h1 {
   height: 400px;
   padding: 10px;
 }
+.hover img {
+  transition: all 0.3s linear;
+}
+.hover img:hover {
+  transform: scale(1.1);
+}
 
 /*-------fin pag galeria------*/
 
@@ -58,7 +63,7 @@ h1 {
 }
 
 .biografia img {
-  width: 500px;
+  width: 475px;
   margin: auto;
   padding: 1px;
 }
@@ -84,7 +89,7 @@ h1 {
 }
 
 /*---fin eventos---*/
-/*---contacto style---*/
+/*---contacto--*/
 form {
   max-width: 500px;
   margin: auto;
@@ -137,7 +142,7 @@ input[type="submit"] {
 input[type="submit"]:hover {
   background-color: #45a049;
 }
-/*---fin contacto-style ---*/
+/*---fin contacto ---*/
 
 /* footer*/
 footer {
