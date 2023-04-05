@@ -1,0 +1,22 @@
+// aplico mixin
+@mixin tamanho($width, $height) {
+  width: $height;
+  height: $height;
+}
+
+.imagen-galeria {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-row-gap: 10px;
+  justify-items: center;
+}
+.imagen-galeria img {
+  @include tamanho(400px, 400px);
+}
+.hover img {
+  transition: all 0.3s linear;
+}
+.hover img:hover {
+  transform: scale(1.1);
+}
