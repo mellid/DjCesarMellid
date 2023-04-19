@@ -2,15 +2,10 @@ header {
   .container-fluid img {
     width: 100px;
   }
-  .navbar-expand-lg .navbar-collapse {
-    justify-content: flex-end;
-  }
-  #navbarNav li {
-    padding: 0 15px;
-  }
+
   .nav-link {
+    font-family: "Monoton", cursive;
     color: rgb(255, 255, 255);
     font-size: 150%;
-    font-family: $fuentePrincipal;
   }
 }

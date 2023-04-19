@@ -7,8 +7,7 @@
 .imagen-galeria {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(3, 1fr);
-  grid-row-gap: 10px;
+  grid-row-gap: 20px;
   justify-items: center;
 }
 .imagen-galeria img {
